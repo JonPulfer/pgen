@@ -14,5 +14,6 @@ by passing a number to the command.
 
 `pgen --pwdlen 15` will produce a string of 15 chars. 
 
-Each char in the password will be unique.
+Each char in the password will be unique. This limits the length to 92 chars.
+
 

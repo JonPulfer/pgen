@@ -19,6 +19,9 @@ func init() {
 // Generate a random string.
 func randomString(l int) string {
 	bytes := make([]byte, l)
+	if l > 92 {
+		l = 92
+	}
 	for i := 0; i < l; i++ {
 	REDO:
 		c := byte(randInt(33, 126))
