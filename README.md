@@ -3,6 +3,8 @@ pgen
 
 Password generator
 
+[![Build Status](https://travis-ci.org/JonPulfer/pgen.png)](https://travis-ci.org/JonPulfer/pgen)
+
 Overview
 --------
 
